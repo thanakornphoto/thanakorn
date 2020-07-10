@@ -43,12 +43,13 @@
         ยืนยันการลงทะเบียน
       </v-btn>
 
-      <v-btn
+      <nuxt-link to="/login"><v-btn
         color="warning"
         @click="resetValidation"
       >
        ยกเลิก
       </v-btn>
+      </nuxt-link>
     </v-form>
   </v-row>
 </template>

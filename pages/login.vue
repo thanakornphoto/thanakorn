@@ -30,7 +30,7 @@
             @click:append="showPassword = !showPassword"
           />
          <v-card-actions>
-         <v-btn @click="doRegister" color="warning" dark large>สมัครสมาชิก</v-btn>
+         <nuxt-link to="/register"><v-btn @click="doRegister" color="warning" dark large>สมัครสมาชิก</v-btn></nuxt-link>
           <v-spacer></v-spacer>
          <v-btn @click="doLogin" color="success" dark large>ยืนยัน</v-btn>
          </v-card-actions>
