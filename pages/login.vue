@@ -15,7 +15,7 @@
           max-width="350"
           color="#333366"
         >
-           <v-card-title>
+           <v-card-title class="">
        <h1>เข้าสู่ระบบ!</h1>
      </v-card-title>
      <v-card-text>
