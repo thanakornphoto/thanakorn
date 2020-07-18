@@ -32,6 +32,6 @@ export default {
       doHome(){
           this.$router.push('/')
       }
-  },
+  }
 }
 </script>
